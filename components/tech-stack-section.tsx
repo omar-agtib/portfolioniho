@@ -10,6 +10,10 @@ import {
   SiFramer,
   SiRadixui,
   SiGit,
+  SiJavascript,
+  SiNodedotjs,
+  SiExpress,
+  SiDocker,
 } from "react-icons/si";
 
 import { useState } from "react";
@@ -29,6 +33,12 @@ const technologies: Technology[] = [
     description: "Modern UI library for building interactive components",
   },
   {
+    name: "React Native",
+    icon: SiReact,
+    gradient: "from-green-400 to-green-600",
+    description: "Framework for building native apps using React",
+  },
+  {
     name: "Next.js",
     icon: SiNextdotjs,
     gradient: "from-slate-400 to-slate-600",
@@ -39,6 +49,24 @@ const technologies: Technology[] = [
     icon: SiTypescript,
     gradient: "from-blue-400 to-blue-600",
     description: "Strongly typed JavaScript for safer code",
+  },
+  {
+    name: "JavaScript",
+    icon: SiJavascript,
+    gradient: "from-yellow-400 to-yellow-600",
+    description: "Versatile programming language for web development",
+  },
+  {
+    name: "Node.js",
+    icon: SiExpress,
+    gradient: "from-gray-400 to-gray-600",
+    description: "JavaScript runtime for server-side development",
+  },
+  {
+    name: "Express.js",
+    icon: SiNodedotjs,
+    gradient: "from-gray-400 to-gray-600",
+    description: "Minimalist web framework for Node.js applications",
   },
   {
     name: "Tailwind CSS",
@@ -53,12 +81,6 @@ const technologies: Technology[] = [
     description: "Animation library for smooth interactions",
   },
   {
-    name: "TypeScript",
-    icon: SiTypescript,
-    gradient: "from-amber-400 to-orange-600",
-    description: "Strongly typed JavaScript for safer code",
-  },
-  {
     name: "Radix UI",
     icon: SiRadixui,
     gradient: "from-purple-400 to-purple-600",
@@ -69,6 +91,12 @@ const technologies: Technology[] = [
     icon: SiGit,
     gradient: "from-orange-400 to-red-600",
     description: "Version control for team collaboration",
+  },
+  {
+    name: "Docker",
+    icon: SiDocker,
+    gradient: "from-blue-400 to-blue-600",
+    description: "Containerization for consistent environments",
   },
 ];
 
