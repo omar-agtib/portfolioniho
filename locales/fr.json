@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "work": "Portfolio",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Maîtrise Frontend",
+    "title1": "Transformer des Idées en",
+    "title2": "Expériences Numériques",
+    "description": "Développeur frontend spécialisé en React, Next.js et TypeScript. Je crée des interfaces haute performance, visuellement raffinées avec des animations fluides et un design moderne—transformant la vision en réalité pixel-parfaite.",
+    "role": "Ingénieur Frontend",
+    "location": "Casablanca, Maroc",
+    "viewWork": "Voir Mon Portfolio",
+    "getInTouch": "Me Contacter",
+    "scrollExplore": "Scrollez pour explorer"
+  },
+  "about": {
+    "title": "Comment je Construis des Expériences Frontend",
+    "description": "Ma boîte à outils combine des frameworks modernes, des bibliothèques stratégiques et les meilleures pratiques pour livrer des interfaces rapides, belles et accessibles.",
+    "expertise": {
+      "performance": "Optimisation des Performances",
+      "performanceDesc": "Optimisation des Core Web Vitals, chargement différé et gestion d'état efficace pour des expériences ultra-rapides.",
+      "accessibility": "Accessibilité en Premier",
+      "accessibilityDesc": "Construction d'interfaces conformes WCAG avec HTML sémantique et attributs ARIA appropriés pour une conception inclusive.",
+      "design": "Design Pixel-Parfait",
+      "designDesc": "Traduction des designs en implémentations pixel-parfaites avec attention aux micro-interactions et détails."
+    }
+  },
+  "timeline": {
+    "title": "Parcours Professionnel",
+    "description": "Créer des expériences numériques avec précision et passion. Chaque rôle a façonné mon expertise et mon approche."
+  },
+  "projects": {
+    "title": "Projets Vedettes",
+    "description": "Présentant mon meilleur travail dans différents domaines et technologies. Chaque projet démontre mon engagement envers la qualité et l'innovation.",
+    "viewProject": "Voir le Projet",
+    "startProject": "Commencer Votre Projet"
+  },
+  "values": {
+    "title": "Pourquoi les Clients me Choisissent",
+    "description": "Combinant l'excellence technique avec la réflexion stratégique pour livrer des résultats qui dépassent les attentes.",
+    "performanceFirst": "Performance en Premier",
+    "performanceFirstDesc": "Chaque pixel optimisé pour la vitesse. Je priorise les Core Web Vitals et le code efficace pour assurer des expériences ultra-rapides.",
+    "accessibility": "Accessibilité",
+    "accessibilityDesc": "Création d'interfaces inclusives qui fonctionnent pour tout le monde. Conforme WCAG 2.1 AA avec HTML sémantique et implémentation ARIA appropriée.",
+    "pixelPerfect": "Pixel-Parfait",
+    "pixelPerfectDesc": "Attention minutieuse aux détails de conception. Chaque interaction, animation et élément visuel affiné à la perfection.",
+    "userFocused": "Centré sur l'Utilisateur",
+    "userFocusedDesc": "La compréhension des besoins des utilisateurs guide mes décisions de conception. Je crée des interfaces intuitives qui ravissent et engagent.",
+    "scalability": "Scalabilité",
+    "scalabilityDesc": "Construction de systèmes qui grandissent. Architecture propre et conception de composants prêtes pour l'expansion et la maintenance futures.",
+    "innovation": "Innovation",
+    "innovationDesc": "Rester en avant avec les dernières technologies. Exploration constante de nouveaux outils et techniques pour améliorer mon métier."
+  },
+  "contact": {
+    "title": "Travaillons Ensemble",
+    "description": "Prêt à donner vie à votre vision? Je suis enthousiaste de discuter de votre projet et d'explorer comment nous pouvons créer quelque chose de remarquable ensemble.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "available": "Disponible pour des projets freelance et du travail de conseil",
+    "sendMessage": "Envoyer un Message",
+    "upwork": "Upwork",
+    "upworkNote": "Également disponible sur Upwork pour une collaboration continue"
+  },
+  "footer": {
+    "about": "Création d'expériences numériques haute performance et visuellement raffinées avec React, Next.js et des principes de design modernes.",
+    "navigation": "Navigation",
+    "home": "Accueil",
+    "services": "Services",
+    "service1": "Développement UI",
+    "service2": "Systèmes de Design",
+    "service3": "Applications Web",
+    "service4": "Optimisation des Performances",
+    "connect": "Connectez-vous",
+    "backToTop": "Retour en haut",
+    "copyright": "Tous droits réservés."
+  }
+}

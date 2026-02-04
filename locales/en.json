@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "work": "Work",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Frontend Mastery",
+    "title1": "Transform Ideas Into",
+    "title2": "Digital Experiences",
+    "description": "Frontend developer specializing in React, Next.js, and TypeScript. I craft high-performance, visually refined interfaces with smooth animations and modern design—turning vision into pixel-perfect reality.",
+    "role": "Frontend Engineer",
+    "location": "Casablanca, Morocco",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "scrollExplore": "Scroll to explore"
+  },
+  "about": {
+    "title": "How I Build Frontend Experiences",
+    "description": "My toolkit combines modern frameworks, strategic libraries, and best practices to deliver fast, beautiful, and accessible user interfaces.",
+    "expertise": {
+      "performance": "Performance Optimization",
+      "performanceDesc": "Optimizing Core Web Vitals, lazy loading, and efficient state management for lightning-fast experiences.",
+      "accessibility": "Accessibility First",
+      "accessibilityDesc": "Building WCAG-compliant interfaces with semantic HTML and ARIA attributes for inclusive design.",
+      "design": "Pixel Perfect Design",
+      "designDesc": "Translating designs into pixel-perfect implementations with attention to micro-interactions and details."
+    }
+  },
+  "timeline": {
+    "title": "Professional Journey",
+    "description": "Crafting digital experiences with precision and passion. Each role shaped my expertise and approach."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "Showcasing my best work across different domains and technologies. Each project demonstrates my commitment to quality and innovation.",
+    "viewProject": "View Project",
+    "startProject": "Start Your Project"
+  },
+  "values": {
+    "title": "Why Clients Choose Me",
+    "description": "Combining technical excellence with strategic thinking to deliver results that exceed expectations.",
+    "performanceFirst": "Performance First",
+    "performanceFirstDesc": "Every pixel optimized for speed. I prioritize Core Web Vitals and efficient code to ensure lightning-fast user experiences.",
+    "accessibility": "Accessibility",
+    "accessibilityDesc": "Building inclusive interfaces that work for everyone. WCAG 2.1 AA compliant with semantic HTML and proper ARIA implementation.",
+    "pixelPerfect": "Pixel Perfect",
+    "pixelPerfectDesc": "Meticulous attention to design details. Every interaction, animation, and visual element refined to perfection.",
+    "userFocused": "User Focused",
+    "userFocusedDesc": "Understanding user needs drives my design decisions. I create intuitive interfaces that delight and engage.",
+    "scalability": "Scalability",
+    "scalabilityDesc": "Building systems that grow. Clean architecture and component design ready for future expansion and maintenance.",
+    "innovation": "Innovation",
+    "innovationDesc": "Staying ahead with latest technologies. Always exploring new tools and techniques to improve my craft."
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "Ready to bring your vision to life? I'm excited to discuss your project and explore how we can create something remarkable together.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "available": "Available for freelance projects and consulting work",
+    "sendMessage": "Send Me a Message",
+    "upwork": "Upwork",
+    "upworkNote": "Also available on Upwork for ongoing collaboration"
+  },
+  "footer": {
+    "about": "Crafting high-performance, visually refined digital experiences with React, Next.js, and modern design principles.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "services": "Services",
+    "service1": "UI Development",
+    "service2": "Design Systems",
+    "service3": "Web Applications",
+    "service4": "Performance Optimization",
+    "connect": "Connect",
+    "backToTop": "Back to top",
+    "copyright": "All rights reserved."
+  }
+}
