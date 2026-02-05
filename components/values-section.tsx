@@ -10,53 +10,44 @@ import {
   TrendingUp,
   Lightbulb,
 } from "lucide-react";
+import { useI18n } from "@/lib/i18n-context";
 
 const values = [
   {
     icon: Zap,
-    title: "Performance First",
-    description:
-      "Every pixel optimized for speed. I prioritize Core Web Vitals and efficient code to ensure lightning-fast user experiences.",
+    titleKey: "values.items.0.title",
+    descriptionKey: "values.items.0.description",
     color: "from-amber-400 to-orange-600",
   },
   {
     icon: Shield,
-    title: "Accessibility",
-    description:
-      "Building inclusive interfaces that work for everyone. WCAG 2.1 AA compliant with semantic HTML and proper ARIA implementation.",
+    titleKey: "values.items.1.title",
+    descriptionKey: "values.items.1.description",
     color: "from-emerald-400 to-teal-600",
   },
   {
     icon: Palette,
-    title: "Pixel Perfect",
-    description:
-      "Meticulous attention to design details. Every interaction, animation, and visual element refined to perfection.",
+    titleKey: "values.items.2.title",
+    descriptionKey: "values.items.2.description",
     color: "from-pink-400 to-rose-600",
   },
   {
     icon: Users,
-    title: "User Focused",
-    description:
-      "Understanding user needs drives my design decisions. I create intuitive interfaces that delight and engage.",
+    titleKey: "values.items.3.title",
+    descriptionKey: "values.items.3.description",
     color: "from-blue-400 to-cyan-600",
   },
   {
     icon: TrendingUp,
-    title: "Scalability",
-    description:
-      "Building systems that grow. Clean architecture and component design ready for future expansion and maintenance.",
+    titleKey: "values.items.4.title",
+    descriptionKey: "values.items.4.description",
     color: "from-purple-400 to-pink-600",
-  },
-  {
-    icon: Lightbulb,
-    title: "Innovation",
-    description:
-      "Staying ahead with latest technologies. Always exploring new tools and techniques to improve my craft.",
-    color: "from-indigo-400 to-purple-600",
   },
 ];
 
 export function ValuesSection() {
+  const { t } = useI18n();
+
   return (
     <section id="values" className="relative py-20 md:py-32 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
@@ -71,12 +62,11 @@ export function ValuesSection() {
           <motion.div variants={itemVariants} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
               <span className="bg-linear-to-r from-foreground to-foreground/60 bg-clip-text text-transparent">
-                Why Clients Choose Me
+                {t("values.title")}
               </span>
             </h2>
             <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-              Combining technical excellence with strategic thinking to deliver
-              results that exceed expectations.
+              {t("values.subtitle")}
             </p>
           </motion.div>
 
@@ -113,12 +103,12 @@ export function ValuesSection() {
 
                     {/* Title */}
                     <h3 className="text-xl font-bold text-foreground">
-                      {value.title}
+                      {t(value.titleKey)}
                     </h3>
 
                     {/* Description */}
                     <p className="text-foreground/70 leading-relaxed text-sm">
-                      {value.description}
+                      {t(value.descriptionKey)}
                     </p>
                   </div>
 

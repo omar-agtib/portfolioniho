@@ -2,14 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Code2, Sparkles } from "lucide-react";
-import {
-  containerVariants,
-  itemVariants,
-  slideUpVariants,
-} from "@/lib/animations";
+import { containerVariants, itemVariants } from "@/lib/animations";
 import Link from "next/link";
+import { useI18n } from "@/lib/i18n-context";
 
 export function HeroSection() {
+  const { t } = useI18n();
+
   return (
     <section
       id="hero"
@@ -53,7 +52,7 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5 dark:border-blue-400/20 dark:bg-blue-400/5 backdrop-blur-sm">
             <Sparkles className="w-4 h-4 text-primary dark:text-blue-400" />
             <span className="text-sm font-medium text-foreground/80">
-              Frontend Mastery
+              {t("hero.badge")}
             </span>
           </div>
         </motion.div>
@@ -62,11 +61,11 @@ export function HeroSection() {
         <motion.div variants={itemVariants} className="space-y-4">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
             <span className="text-balance bg-linear-to-r from-foreground via-foreground to-foreground/60 bg-clip-text text-transparent">
-              Transform Ideas Into
+              {t("hero.title1")}
             </span>
             <br />
             <span className="text-balance bg-linear-to-r from-primary dark:from-blue-400 to-accent dark:to-violet-400 bg-clip-text text-transparent">
-              Digital Experiences
+              {t("hero.title2")}
             </span>
           </h1>
         </motion.div>
@@ -76,10 +75,7 @@ export function HeroSection() {
           variants={itemVariants}
           className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto leading-relaxed"
         >
-          Frontend developer specializing in React, Next.js, and TypeScript. I
-          craft high-performance, visually refined interfaces with smooth
-          animations and modern design—turning vision into pixel-perfect
-          reality.
+          {t("hero.description")}
         </motion.p>
 
         {/* Developer info */}
@@ -91,10 +87,14 @@ export function HeroSection() {
             <Code2 className="w-4 h-4 text-primary dark:text-blue-400" />
             <span>Omar Agtib</span>
           </div>
+
           <div className="hidden md:block w-1 h-1 rounded-full bg-foreground/20" />
-          <span>Casablanca, Morocco</span>
+
+          <span>{t("hero.location")}</span>
+
           <div className="hidden md:block w-1 h-1 rounded-full bg-foreground/20" />
-          <span>Frontend Engineer</span>
+
+          <span>{t("hero.role")}</span>
         </motion.div>
 
         {/* CTA Buttons */}
@@ -108,17 +108,18 @@ export function HeroSection() {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              View My Work
+              {t("hero.viewWork")}
               <ArrowRight className="w-4 h-4" />
             </motion.button>
           </Link>
+
           <Link href="#contact">
             <motion.button
               className="px-8 py-4 rounded-lg border border-primary/30 dark:border-blue-400/30 text-foreground hover:bg-primary/5 dark:hover:bg-blue-400/5 font-semibold transition-all duration-300"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              Get In Touch
+              {t("hero.getInTouch")}
             </motion.button>
           </Link>
         </motion.div>
@@ -130,7 +131,7 @@ export function HeroSection() {
           className="pt-8"
         >
           <div className="flex flex-col items-center gap-2 text-foreground/40">
-            <span className="text-sm">Scroll to explore</span>
+            <span className="text-sm">{t("hero.scrollExplore")}</span>
             <svg
               className="w-5 h-5"
               fill="none"
@@ -148,11 +149,11 @@ export function HeroSection() {
         </motion.div>
       </motion.div>
 
-      {/* Floating code decoration */}
+      {/* Floating decorations */}
       <motion.div
         className="absolute top-20 right-10 md:right-20 w-32 h-32 rounded-lg border border-primary/10 dark:border-blue-400/10 bg-primary/5 dark:bg-blue-400/5 backdrop-blur-sm p-4 hidden lg:flex items-center justify-center"
         animate={{ y: [0, -20, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 6, repeat: Infinity }}
       >
         <code className="text-xs text-foreground/40 dark:text-blue-300/40">
           &lt;Code /&gt;
@@ -162,7 +163,7 @@ export function HeroSection() {
       <motion.div
         className="absolute bottom-32 left-10 md:left-20 w-24 h-24 rounded-lg border border-accent/10 dark:border-violet-400/10 bg-accent/5 dark:bg-violet-400/5 backdrop-blur-sm hidden lg:flex items-center justify-center"
         animate={{ y: [0, 20, 0] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 8, repeat: Infinity }}
       >
         <Sparkles className="w-6 h-6 text-accent/40 dark:text-violet-400/40" />
       </motion.div>

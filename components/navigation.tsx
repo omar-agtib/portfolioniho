@@ -24,6 +24,7 @@ export function Navigation() {
     { label: t("navigation.about"), sectionId: "timeline" },
     { label: t("navigation.services"), sectionId: "values" },
     { label: t("navigation.contact"), sectionId: "contact" },
+    { label: t("navigation.testimonials"), sectionId: "testimonials" },
   ];
 
   return (

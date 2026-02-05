@@ -7,46 +7,10 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 
 export function TestimonialsSection() {
   const { t } = useI18n();
+  const testimonials = t("testimonials.items");
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
-
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      title: "CEO, TechVenture",
-      image: "👩‍💼",
-      text: "Omar delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and understanding of UX principles transformed our business.",
-      rating: 5,
-    },
-    {
-      name: "Michael Chen",
-      title: "Product Manager, StartupHub",
-      image: "👨‍💼",
-      text: "Working with Omar was a game-changer. The dashboard he built is intuitive, performant, and our users love it. Highly recommend for anyone seeking top-tier React expertise.",
-      rating: 5,
-    },
-    {
-      name: "Elena Rodriguez",
-      title: "Founder, DesignStudio",
-      image: "👩‍🎨",
-      text: "Omar brings both technical excellence and creative vision to every project. He collaborated seamlessly with our design team and delivered pixel-perfect implementations.",
-      rating: 5,
-    },
-    {
-      name: "David Kim",
-      title: "CTO, CloudServices",
-      image: "👨‍💻",
-      text: "Outstanding frontend engineer. Omar optimized our application performance by 60% and implemented advanced animations that impressed our clients immediately.",
-      rating: 5,
-    },
-    {
-      name: "Jessica Martinez",
-      title: "Project Lead, Digital Agency",
-      image: "👩‍🔬",
-      text: "Professional, responsive, and incredibly talented. Omar handled complex requirements with ease and delivered well-documented, maintainable code. A joy to work with.",
-      rating: 5,
-    },
-  ];
 
   useEffect(() => {
     if (!autoplay) return;
@@ -91,11 +55,11 @@ export function TestimonialsSection() {
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-balance">
             <span className="bg-linear-to-r from-primary dark:from-blue-400 to-accent dark:to-violet-400 bg-clip-text text-transparent">
-              Trusted by Great Clients
+              {t("testimonials.title")}
             </span>
           </h2>
           <p className="text-foreground/60 text-lg max-w-2xl mx-auto">
-            Real feedback from clients I've had the pleasure to work with
+            {t("testimonials.subtitle")}
           </p>
         </motion.div>
 

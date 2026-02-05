@@ -3,79 +3,227 @@
     "work": "Portfolio",
     "about": "À Propos",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "testimonials": "Témoignages"
   },
   "hero": {
-    "badge": "Maîtrise Frontend",
-    "title1": "Transformer des Idées en",
-    "title2": "Expériences Numériques",
-    "description": "Développeur frontend spécialisé en React, Next.js et TypeScript. Je crée des interfaces haute performance, visuellement raffinées avec des animations fluides et un design moderne—transformant la vision en réalité pixel-parfaite.",
-    "role": "Ingénieur Frontend",
+    "badge": "Ingénieur React, TypeScript & Mobile",
+    "title1": "Construire des",
+    "title2": "Applications Web & Mobile Modernes",
+    "description": "Développeur Fullstack orienté Frontend, spécialisé en React, Next.js, TypeScript et React Native. Je conçois des applications web et mobiles performantes, scalables et maintenables, avec une forte attention portée à l’UX, aux performances et aux bonnes pratiques de production.",
+    "role": "Ingénieur JavaScript Frontend / Fullstack",
     "location": "Casablanca, Maroc",
     "viewWork": "Voir Mon Portfolio",
     "getInTouch": "Me Contacter",
     "scrollExplore": "Scrollez pour explorer"
   },
-  "about": {
-    "title": "Comment je Construis des Expériences Frontend",
-    "description": "Ma boîte à outils combine des frameworks modernes, des bibliothèques stratégiques et les meilleures pratiques pour livrer des interfaces rapides, belles et accessibles.",
-    "expertise": {
-      "performance": "Optimisation des Performances",
-      "performanceDesc": "Optimisation des Core Web Vitals, chargement différé et gestion d'état efficace pour des expériences ultra-rapides.",
-      "accessibility": "Accessibilité en Premier",
-      "accessibilityDesc": "Construction d'interfaces conformes WCAG avec HTML sémantique et attributs ARIA appropriés pour une conception inclusive.",
-      "design": "Design Pixel-Parfait",
-      "designDesc": "Traduction des designs en implémentations pixel-parfaites avec attention aux micro-interactions et détails."
+  "techStack": {
+    "title": "Stack Technologique",
+    "description": "Technologies et outils que j’utilise pour construire des applications modernes et scalables.",
+    "technologies": {
+      "react": "Bibliothèque UI moderne pour créer des composants interactifs",
+      "reactNative": "Framework pour développer des applications mobiles natives avec React",
+      "next": "Framework fullstack pour applications web optimisées",
+      "typescript": "JavaScript typé pour un code plus fiable et scalable",
+      "javascript": "Langage principal du développement web moderne",
+      "node": "Runtime JavaScript pour développement backend",
+      "express": "Framework minimaliste pour applications Node.js",
+      "tailwind": "Framework CSS utilitaire pour développement UI rapide",
+      "framer": "Bibliothèque d’animations pour interactions fluides",
+      "radix": "Bibliothèque de composants UI accessibles et personnalisables",
+      "git": "Système de gestion de versions pour collaboration",
+      "docker": "Plateforme de conteneurisation pour environnements cohérents"
     }
   },
   "timeline": {
     "title": "Parcours Professionnel",
-    "description": "Créer des expériences numériques avec précision et passion. Chaque rôle a façonné mon expertise et mon approche."
+    "description": "Développement d’applications web modernes avec amélioration mesurable des performances et collaboration étroite avec les équipes produit.",
+    "experiences": [
+      {
+        "title": "Développeur Frontend React",
+        "company": "ELAVI",
+        "period": "Août 2025 - Présent",
+        "description": "Développement d’interfaces web performantes avec React et TypeScript. Amélioration des performances de 30%, création de composants UI réutilisables, intégration d’API REST et mise en place d’environnements Docker.",
+        "highlights": ["React", "TypeScript", "Redux", "Axios", "Docker"]
+      },
+      {
+        "title": "Développeur Frontend",
+        "company": "SMALTER",
+        "period": "Avril 2024 - Juillet 2025",
+        "description": "Création d’applications React responsives et scalables, développement de composants UI réutilisables, gestion d’état avec Redux et réduction des bugs critiques de 20%.",
+        "highlights": ["React", "React Native", "TypeScript", "Redux", "GitLab"]
+      },
+      {
+        "title": "Stagiaire Développeur Fullstack JavaScript",
+        "company": "Ark-X Academy",
+        "period": "Juillet 2023 - Décembre 2023",
+        "description": "Conception et développement d’une plateforme e-commerce complète avec React.js pour le frontend et Node.js/Express pour le backend. Mise en place de tests unitaires avec Jest pour assurer la stabilité de l’application. Optimisation de la gestion d’état avec Redux, réduisant les re-rendus inutiles de 25%, et collaboration via Git et revues de code.",
+        "highlights": [
+          "React",
+          "Redux",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Jest",
+          "Git"
+        ]
+      }
+    ]
   },
+  "about": {
+    "title": "Comment je Développe des Applications Frontend",
+    "description": "J'associe frameworks modernes, architecture scalable et bonnes pratiques de performance pour livrer des applications fiables et maintenables.",
+    "expertise": {
+      "performance": "Optimisation des Performances",
+      "performanceDesc": "Amélioration des Core Web Vitals, optimisation du rendu, lazy loading et gestion d'état efficace avec Redux, Zustand et React Query.",
+      "accessibility": "Accessibilité & UX",
+      "accessibilityDesc": "Création d'interfaces inclusives et ergonomiques en respectant les standards d'accessibilité et les bonnes pratiques UX.",
+      "design": "Du Design à la Production",
+      "designDesc": "Transformation de maquettes Figma en systèmes de composants réutilisables avec Tailwind CSS et des patterns modernes."
+    }
+  },
+
   "projects": {
-    "title": "Projets Vedettes",
-    "description": "Présentant mon meilleur travail dans différents domaines et technologies. Chaque projet démontre mon engagement envers la qualité et l'innovation.",
-    "viewProject": "Voir le Projet",
-    "startProject": "Commencer Votre Projet"
+    "title": "Projets à la une",
+    "subtitle": "Présentation de mes meilleurs travaux dans différents domaines et technologies.",
+    "cta": "Démarrer votre projet",
+    "viewScreens": "Voir les écrans",
+    "viewProject": "Voir le projet",
+
+    "items": [
+      {
+        "title": "Plateforme e-commerce",
+        "description": "Plateforme e-commerce haute performance avec gestion des stocks en temps réel et un processus de paiement fluide.",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+        "link": "https://example.com",
+        "github": "https://github.com/yourname/project",
+        "screens": [
+          "/projects/test.jpg",
+          "/projects/test.jpg",
+          "/projects/test.jpg"
+        ]
+      },
+      {
+        "title": "Système de design",
+        "description": "Système de design réutilisable avec plus de 40 composants et une documentation complète.",
+        "tags": ["React", "Storybook", "Tailwind CSS"],
+        "link": "https://example.com",
+        "github": "https://github.com/yourname/project",
+        "screens": [
+          "/projects/testt.jpg",
+          "/projects/testt.jpg",
+          "/projects/testt.jpg"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ils me font confiance",
+    "subtitle": "Des retours authentiques de clients avec qui j’ai travaillé",
+
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "title": "CEO, TechVenture",
+        "text": "Omar a livré une plateforme e-commerce exceptionnelle, dépassant nos attentes en termes de performance, de design et de scalabilité.",
+        "rating": 5,
+        "image": "👩‍💼"
+      },
+      {
+        "name": "Michael Brown",
+        "title": "Product Manager, Finly",
+        "text": "Travailler avec Omar a été un réel plaisir. Son souci du détail et sa capacité à transformer des idées en interfaces abouties sont remarquables.",
+        "rating": 5,
+        "image": "👨‍💻"
+      },
+      {
+        "name": "Emily Carter",
+        "title": "Fondatrice, StudioCraft",
+        "text": "Le système de design créé par Omar a considérablement amélioré notre vitesse de développement et notre cohérence visuelle.",
+        "rating": 5,
+        "image": "🎨"
+      },
+      {
+        "name": "David Lee",
+        "title": "CTO, DataPulse",
+        "text": "L’expertise technique et la capacité de résolution de problèmes d’Omar nous ont permis de lancer un dashboard complexe dans les délais et avec une grande qualité.",
+        "rating": 5,
+        "image": "📊"
+      },
+      {
+        "name": "Laura Martinez",
+        "title": "Directrice Marketing, BrightCo",
+        "text": "Du concept à la livraison, Omar a été professionnel, proactif et pleinement investi dans la réussite de notre projet.",
+        "rating": 5,
+        "image": "🚀"
+      }
+    ]
   },
   "values": {
-    "title": "Pourquoi les Clients me Choisissent",
-    "description": "Combinant l'excellence technique avec la réflexion stratégique pour livrer des résultats qui dépassent les attentes.",
-    "performanceFirst": "Performance en Premier",
-    "performanceFirstDesc": "Chaque pixel optimisé pour la vitesse. Je priorise les Core Web Vitals et le code efficace pour assurer des expériences ultra-rapides.",
-    "accessibility": "Accessibilité",
-    "accessibilityDesc": "Création d'interfaces inclusives qui fonctionnent pour tout le monde. Conforme WCAG 2.1 AA avec HTML sémantique et implémentation ARIA appropriée.",
-    "pixelPerfect": "Pixel-Parfait",
-    "pixelPerfectDesc": "Attention minutieuse aux détails de conception. Chaque interaction, animation et élément visuel affiné à la perfection.",
-    "userFocused": "Centré sur l'Utilisateur",
-    "userFocusedDesc": "La compréhension des besoins des utilisateurs guide mes décisions de conception. Je crée des interfaces intuitives qui ravissent et engagent.",
-    "scalability": "Scalabilité",
-    "scalabilityDesc": "Construction de systèmes qui grandissent. Architecture propre et conception de composants prêtes pour l'expansion et la maintenance futures.",
-    "innovation": "Innovation",
-    "innovationDesc": "Rester en avant avec les dernières technologies. Exploration constante de nouveaux outils et techniques pour améliorer mon métier."
+    "title": "Pourquoi les clients me choisissent",
+    "subtitle": "Allier excellence technique, design soigné et vision stratégique",
+
+    "items": [
+      {
+        "title": "Performance avant tout",
+        "description": "Chaque pixel et chaque ligne de code sont optimisés pour offrir une expérience rapide et fluide."
+      },
+      {
+        "title": "Accessibilité",
+        "description": "Des interfaces inclusives, pensées pour être utilisées par tous, sans compromis."
+      },
+      {
+        "title": "Qualité & fiabilité",
+        "description": "Un code propre, maintenable et testé pour garantir des projets solides dans le temps."
+      },
+      {
+        "title": "Communication claire",
+        "description": "Un échange transparent et régulier pour avancer efficacement à chaque étape du projet."
+      },
+      {
+        "title": "Vision produit",
+        "description": "Une approche orientée business et utilisateur, au-delà du simple développement."
+      }
+    ]
   },
   "contact": {
-    "title": "Travaillons Ensemble",
-    "description": "Prêt à donner vie à votre vision? Je suis enthousiaste de discuter de votre projet et d'explorer comment nous pouvons créer quelque chose de remarquable ensemble.",
-    "email": "Email",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "available": "Disponible pour des projets freelance et du travail de conseil",
-    "sendMessage": "Envoyer un Message",
-    "upwork": "Upwork",
-    "upworkNote": "Également disponible sur Upwork pour une collaboration continue"
+    "title": "Travaillons ensemble",
+    "subtitle": "Prêt à donner vie à votre projet ?",
+    "availability": "Disponible pour des missions freelance",
+    "cta": "Envoyez-moi un message",
+    "upwork": "Également disponible sur Upwork",
+
+    "methods": [
+      {
+        "label": "Email",
+        "value": "omar.agtib.dev@gmail.com",
+        "link": "mailto:omar.agtib.dev@gmail.com"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/omar-agtib",
+        "link": "https://linkedin.com/in/omar-agtib"
+      },
+      {
+        "label": "Github",
+        "value": "github.com/omar-agtib",
+        "link": "https://github.com/omar-agtib"
+      }
+    ]
   },
   "footer": {
-    "about": "Création d'expériences numériques haute performance et visuellement raffinées avec React, Next.js et des principes de design modernes.",
+    "description": "Création d'expériences digitales performantes",
     "navigation": "Navigation",
-    "home": "Accueil",
     "services": "Services",
-    "service1": "Développement UI",
-    "service2": "Systèmes de Design",
-    "service3": "Applications Web",
-    "service4": "Optimisation des Performances",
-    "connect": "Connectez-vous",
-    "backToTop": "Retour en haut",
-    "copyright": "Tous droits réservés."
+    "connect": "Contact",
+    "rights": "Tous droits réservés.",
+    "backTop": "Retour en haut",
+
+    "servicesList": [
+      "Développement UI",
+      "Systèmes de design",
+      "Applications web",
+      "Optimisation des performances"
+    ]
   }
 }

@@ -1,15 +1,25 @@
 "use client";
 
+import { useI18n } from "@/lib/i18n-context";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
-import Link from "next/link";
+import { scrollToSection } from "@/lib/scroll-navigation";
 
 export function Footer() {
+  const { t } = useI18n();
   const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  const navItems = [
+    { label: t("navigation.work"), sectionId: "projects" },
+    { label: t("navigation.about"), sectionId: "timeline" },
+    { label: t("navigation.services"), sectionId: "values" },
+    { label: t("navigation.contact"), sectionId: "contact" },
+    { label: t("navigation.testimonials"), sectionId: "testimonials" },
+  ];
 
   return (
     <footer className="relative border-t border-border/20 dark:border-blue-400/10 bg-background/50 dark:bg-background/30 backdrop-blur-sm">
@@ -26,8 +36,7 @@ export function Footer() {
               Omar Agtib
             </div>
             <p className="text-sm text-foreground/60">
-              Crafting high-performance, visually refined digital experiences
-              with React, Next.js, and modern design principles.
+              {t("footer.description")}
             </p>
           </motion.div>
 
@@ -39,23 +48,19 @@ export function Footer() {
             transition={{ delay: 0.1 }}
             className="space-y-4"
           >
-            <h3 className="font-semibold text-foreground">Navigation</h3>
+            <h3 className="font-semibold text-foreground">
+              {t("footer.navigation")}
+            </h3>
             <ul className="space-y-2">
-              {[
-                { label: "Home", href: "#home" },
-                { label: "About", href: "#about" },
-                { label: "Projects", href: "#projects" },
-                { label: "Contact", href: "#contact" },
-              ].map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href}>
-                    <motion.span
-                      className="text-sm text-foreground/60 hover:text-foreground transition-colors"
-                      whileHover={{ x: 4 }}
-                    >
-                      {item.label}
-                    </motion.span>
-                  </Link>
+              {navItems.map((item) => (
+                <li key={item.sectionId}>
+                  <motion.button
+                    className="text-sm text-foreground/60 hover:text-foreground transition-colors bg-transparent border-none p-0 cursor-pointer"
+                    whileHover={{ x: 4 }}
+                    onClick={() => scrollToSection(item.sectionId)}
+                  >
+                    {item.label}
+                  </motion.button>
                 </li>
               ))}
             </ul>
@@ -69,18 +74,19 @@ export function Footer() {
             transition={{ delay: 0.2 }}
             className="space-y-4"
           >
-            <h3 className="font-semibold text-foreground">Services</h3>
+            <h3 className="font-semibold text-foreground">
+              {t("footer.services")}
+            </h3>
             <ul className="space-y-2">
-              {[
-                "UI Development",
-                "Design Systems",
-                "Web Applications",
-                "Performance Optimization",
-              ].map((service) => (
-                <li key={service}>
-                  <span className="text-sm text-foreground/60">{service}</span>
-                </li>
-              ))}
+              {t("footer.servicesList", { returnObjects: true }).map(
+                (service: string) => (
+                  <li key={service}>
+                    <span className="text-sm text-foreground/60">
+                      {service}
+                    </span>
+                  </li>
+                ),
+              )}
             </ul>
           </motion.div>
 
@@ -92,7 +98,9 @@ export function Footer() {
             transition={{ delay: 0.3 }}
             className="space-y-4"
           >
-            <h3 className="font-semibold text-foreground">Connect</h3>
+            <h3 className="font-semibold text-foreground">
+              {t("footer.connect")}
+            </h3>
             <div className="flex gap-3">
               {[
                 {
@@ -109,7 +117,7 @@ export function Footer() {
               ].map((social) => {
                 const Icon = social.icon;
                 return (
-                  <Link
+                  <a
                     key={social.label}
                     href={social.href}
                     target="_blank"
@@ -123,7 +131,7 @@ export function Footer() {
                     >
                       <Icon className="w-4 h-4 text-foreground/70 hover:text-foreground" />
                     </motion.button>
-                  </Link>
+                  </a>
                 );
               })}
             </div>
@@ -135,13 +143,15 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-foreground/60">
-          <p>© {currentYear} Omar Agtib. All rights reserved.</p>
+          <p>
+            © {currentYear} Omar Agtib. {t("footer.rights")}
+          </p>
           <motion.button
             onClick={scrollToTop}
             className="flex items-center gap-2 hover:text-foreground transition-colors"
             whileHover={{ y: -2 }}
           >
-            Back to top
+            {t("footer.backTop")}
             <ArrowUp className="w-4 h-4" />
           </motion.button>
         </div>
