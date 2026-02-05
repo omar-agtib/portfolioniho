@@ -85,34 +85,92 @@
 
   "projects": {
     "title": "Featured Projects",
-    "subtitle": "Showcasing my best work across different domains and technologies.",
+    "subtitle": "Showcasing real-world applications focused on performance, real-time collaboration, and scalable architecture.",
     "cta": "Start Your Project",
     "viewScreens": "View Screens",
     "viewProject": "View Project",
+    "filters": {
+      "all": "All Projects",
+      "mobile": "Mobile Apps",
+      "frontend": "Frontend Apps",
+      "backend": "Backend Apps",
+      "fullstack": "Full-Stack Apps"
+    },
+    "noProjects": "No projects found in this category yet. Check back soon!",
 
     "items": [
       {
-        "title": "E-Commerce Platform",
-        "description": "High-performance e-commerce platform with real-time inventory and seamless checkout experience.",
-        "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-        "link": "https://example.com",
-        "github": "https://github.com/yourname/project",
+        "title": "Split & Plan – Social Expense Organizer",
+        "description": "A real-time mobile application that helps groups organize outings, split expenses, and track shared purchases effortlessly. Users can create events, add expenses, monitor balances between participants, and communicate through integrated real-time chat. Built with scalable backend architecture and WebSocket technology to ensure instant updates and smooth collaboration.",
+        "tags": [
+          "React Native",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "WebSocket"
+        ],
+        "type": "fullstack",
+        "showLink": false,
+        "link": "",
+        "github": "https://github.com/omar-agtib/separato-eeh",
         "screens": [
-          "/projects/test.jpg",
-          "/projects/test.jpg",
-          "/projects/test.jpg"
+          "/projects/splitEasy/split-easy-1.png",
+          "/projects/splitEasy/split-easy-2.png",
+          "/projects/splitEasy/split-easy-3.png",
+          "/projects/splitEasy/split-easy-4.png",
+          "/projects/splitEasy/split-easy-5.png",
+          "/projects/splitEasy/split-easy-6.png",
+          "/projects/splitEasy/split-easy-7.png",
+          "/projects/splitEasy/split-easy-8.png",
+          "/projects/splitEasy/split-easy-9.png",
+          "/projects/splitEasy/split-easy-10.png",
+          "/projects/splitEasy/split-easy-11.png",
+          "/projects/splitEasy/split-easy-12.png",
+          "/projects/splitEasy/split-easy-13.png",
+          "/projects/splitEasy/split-easy-14.png"
         ]
       },
       {
-        "title": "Design System",
-        "description": "Reusable design system with 40+ components and documentation.",
-        "tags": ["React", "Storybook", "Tailwind CSS"],
-        "link": "https://example.com",
-        "github": "https://github.com/yourname/project",
+        "title": "Realtime Chat Application",
+        "description": "A modern mobile chat application providing seamless real-time messaging with optimized performance and responsive user experience. Features include instant message delivery, conversation management, and scalable communication powered by WebSocket technology and a robust backend infrastructure.",
+        "tags": [
+          "React Native",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "WebSocket"
+        ],
+        "type": "mobile",
+        "showLink": false,
+        "link": "",
+        "github": "https://github.com/omar-agtib/chat-app-rn",
         "screens": [
-          "/projects/testt.jpg",
-          "/projects/testt.jpg",
-          "/projects/testt.jpg"
+          "/projects/chatApp/chat-app-1.png",
+          "/projects/chatApp/chat-app-2.png",
+          "/projects/chatApp/chat-app-3.png",
+          "/projects/chatApp/chat-app-4.png",
+          "/projects/chatApp/chat-app-5.png",
+          "/projects/chatApp/chat-app-6.png"
+        ]
+      },
+      {
+        "title": "Construction Project Management Platform",
+        "description": "A web-based platform designed to manage construction projects efficiently. The application allows teams to track chantier progress, manage tasks, monitor incidents, and analyze project indicators through a clear and intuitive dashboard. Built with a modern frontend architecture focused on performance, maintainability, and user productivity.",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "type": "frontend",
+        "showLink": true,
+        "link": "https://chantier-sass.netlify.app/",
+        "github": "https://github.com/omar-agtib/mvp-erp-chantier",
+        "screens": [
+          "/projects/chantier/chantier-1.png",
+          "/projects/chantier/chantier-2.png",
+          "/projects/chantier/chantier-3.png",
+          "/projects/chantier/chantier-4.png",
+          "/projects/chantier/chantier-5.png"
         ]
       }
     ]
