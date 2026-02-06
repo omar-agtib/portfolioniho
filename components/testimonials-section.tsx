@@ -71,7 +71,7 @@ export function TestimonialsSection() {
               animate={{ x: `-${currentIndex * 100}%` }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
             >
-              {testimonials.map((testimonial, index) => (
+              {testimonials?.map((testimonial: any, index: number) => (
                 <motion.div
                   key={index}
                   className="w-full shrink-0 px-4 md:px-8"
@@ -147,7 +147,7 @@ export function TestimonialsSection() {
 
           {/* Dots indicator */}
           <div className="flex justify-center gap-2 mt-8">
-            {testimonials.map((_, index) => (
+            {testimonials.map((_: any, index: number) => (
               <motion.button
                 key={index}
                 onClick={() => handleDotClick(index)}

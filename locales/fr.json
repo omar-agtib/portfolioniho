@@ -1,10 +1,12 @@
 {
   "navigation": {
-    "work": "Portfolio",
-    "about": "À Propos",
+    "about": "À propos",
+    "experience": "Expérience",
+    "skills": "Compétences",
+    "work": "Projets",
     "services": "Services",
-    "contact": "Contact",
-    "testimonials": "Témoignages"
+    "testimonials": "Témoignages",
+    "contact": "Contact"
   },
   "hero": {
     "badge": "Ingénieur React, TypeScript & Mobile",

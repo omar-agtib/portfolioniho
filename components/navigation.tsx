@@ -20,11 +20,13 @@ export function Navigation() {
   }, []);
 
   const navItems = [
+    { label: t("navigation.about"), sectionId: "hero" },
+    { label: t("navigation.experience"), sectionId: "timeline" },
+    { label: t("navigation.skills"), sectionId: "tech-stack" },
     { label: t("navigation.work"), sectionId: "projects" },
-    { label: t("navigation.about"), sectionId: "timeline" },
     { label: t("navigation.services"), sectionId: "values" },
-    { label: t("navigation.contact"), sectionId: "contact" },
     { label: t("navigation.testimonials"), sectionId: "testimonials" },
+    { label: t("navigation.contact"), sectionId: "contact" },
   ];
 
   return (

@@ -15,11 +15,11 @@ export default function Home() {
       <AnimatedBackground />
       <Navigation />
       <HeroSection />
-      <TechStackSection />
       <TimelineSection />
+      <TechStackSection />
       <ProjectsSection />
-      <TestimonialsSection />
       <ValuesSection />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </main>

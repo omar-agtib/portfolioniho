@@ -1,10 +1,12 @@
 {
   "navigation": {
-    "work": "Work",
     "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "work": "Projects",
     "services": "Services",
-    "contact": "Contact",
-    "testimonials": "Testimonials"
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   },
   "hero": {
     "badge": "React, TypeScript & Mobile Engineer",
