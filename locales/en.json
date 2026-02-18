@@ -115,6 +115,7 @@
         ],
         "type": "fullstack",
         "showLink": false,
+        "showScreens": true,
         "link": "",
         "github": "https://github.com/omar-agtib/separato-eeh",
         "screens": [
@@ -148,6 +149,7 @@
         ],
         "type": "mobile",
         "showLink": false,
+        "showScreens": true,
         "link": "",
         "github": "https://github.com/omar-agtib/chat-app-rn",
         "screens": [
@@ -165,6 +167,7 @@
         "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
         "type": "frontend",
         "showLink": true,
+        "showScreens": true,
         "link": "https://chantier-sass.netlify.app/",
         "github": "https://github.com/omar-agtib/mvp-erp-chantier",
         "screens": [
@@ -173,6 +176,42 @@
           "/projects/chantier/chantier-3.png",
           "/projects/chantier/chantier-4.png",
           "/projects/chantier/chantier-5.png"
+        ]
+      },
+      {
+        "title": "Gym & Fitness Website",
+        "description": "A modern and high-performance website designed for a gym and fitness center. The platform showcases training programs, class schedules, membership plans, and coach profiles with a clean and engaging user interface. Built with a responsive design approach to ensure a smooth experience across all devices, the website focuses on visual impact, fast loading times, and clear call-to-action sections to convert visitors into members.",
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "type": "frontend",
+        "showLink": true,
+        "showScreens": false,
+        "link": "https://example-gym-website.com",
+        "github": "https://github.com/your-username/gym-website",
+        "screens": [
+          "/projects/gym/gym-1.png",
+          "/projects/gym/gym-2.png",
+          "/projects/gym/gym-3.png"
+        ]
+      },
+      {
+        "title": "Personal Portfolio Website",
+        "description": "A personal portfolio website built to showcase professional projects, technical skills, and experience in a clean and elegant way. The application highlights selected works, detailed project pages, and a strong personal brand through smooth animations and a refined UI. Developed with a modern component-based architecture to ensure scalability, accessibility, and excellent performance.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Radix UI"
+        ],
+        "type": "frontend",
+        "showLink": true,
+        "showScreens": false,
+        "link": "https://example-portfolio.com",
+        "github": "https://github.com/your-username/portfolio",
+        "screens": [
+          "/projects/portfolio/portfolio-1.png",
+          "/projects/portfolio/portfolio-2.png",
+          "/projects/portfolio/portfolio-3.png"
         ]
       }
     ]

@@ -15,16 +15,12 @@ export function ProjectsSection() {
   const projects = t("projects.items");
   const filters = t("projects.filters");
 
-  // Fixed type definition
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [activeFilter, setActiveFilter] = useState<ProjectType>("all");
 
-  // Filter projects based on active filter
-  // Filter projects based on active filter
   const filteredProjects = useMemo(() => {
     if (activeFilter === "all") return projects;
     return projects.filter((project: any) => {
-      // Handle both single type (string) and multiple types (array)
       if (Array.isArray(project.type)) {
         return project.type.includes(activeFilter);
       }
@@ -93,7 +89,7 @@ export function ProjectsSection() {
               ))}
             </motion.div>
 
-            {/* Projects grid with AnimatePresence for smooth transitions */}
+            {/* Projects grid */}
             <AnimatePresence mode="wait">
               {filteredProjects.length > 0 ? (
                 <motion.div
@@ -158,14 +154,17 @@ export function ProjectsSection() {
 
                         {/* Links */}
                         <div className="flex items-center gap-3 pt-4 mt-auto flex-wrap">
-                          <motion.button
-                            onClick={() => setSelectedProject(project)}
-                            className="flex items-center gap-2 text-sm font-medium text-primary dark:text-blue-400 hover:text-accent dark:hover:text-violet-400 transition-colors"
-                            whileHover={{ x: 4 }}
-                          >
-                            <Play className="w-4 h-4" />
-                            {t("projects.viewScreens")}
-                          </motion.button>
+                          {/* ✅ Only show if showScreens is true */}
+                          {project.showScreens && (
+                            <motion.button
+                              onClick={() => setSelectedProject(project)}
+                              className="flex items-center gap-2 text-sm font-medium text-primary dark:text-blue-400 hover:text-accent dark:hover:text-violet-400 transition-colors"
+                              whileHover={{ x: 4 }}
+                            >
+                              <Play className="w-4 h-4" />
+                              {t("projects.viewScreens")}
+                            </motion.button>
+                          )}
 
                           {/* Conditionally render project link */}
                           {project.showLink && project.link && (
@@ -180,7 +179,7 @@ export function ProjectsSection() {
                             </Link>
                           )}
 
-                          {/* GitHub link (always shown) */}
+                          {/* GitHub link */}
                           <Link href={project.github}>
                             <motion.button
                               className="flex items-center gap-2 text-sm font-medium text-foreground/60 hover:text-foreground transition-colors"
@@ -195,7 +194,6 @@ export function ProjectsSection() {
                   ))}
                 </motion.div>
               ) : (
-                // Empty state with nice message
                 <motion.div
                   key="empty"
                   initial={{ opacity: 0, scale: 0.9 }}

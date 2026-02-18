@@ -115,6 +115,7 @@
         ],
         "type": ["fullstack", "mobile"],
         "showLink": false,
+        "showScreens": true,
         "link": "",
         "github": "https://github.com/omar-agtib/separato-eeh",
         "screens": [
@@ -148,6 +149,7 @@
         ],
         "type": ["fullstack", "mobile"],
         "showLink": false,
+        "showScreens": true,
         "link": "",
         "github": "https://github.com/omar-agtib/chat-app-rn",
         "screens": [
@@ -165,6 +167,7 @@
         "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
         "type": "frontend",
         "showLink": true,
+        "showScreens": true,
         "link": "https://chantier-sass.netlify.app/",
         "github": "https://github.com/omar-agtib/mvp-erp-chantier",
         "screens": [
@@ -173,6 +176,42 @@
           "/projects/chantier/chantier-3.png",
           "/projects/chantier/chantier-4.png",
           "/projects/chantier/chantier-5.png"
+        ]
+      },
+      {
+        "title": "Site Web de Salle de Sport",
+        "description": "Un site web moderne et performant conçu pour une salle de sport et de fitness. La plateforme met en avant les programmes d’entraînement, les horaires des cours, les abonnements et les coachs à travers une interface claire et attractive. Développé avec une approche responsive, le site offre une expérience fluide sur tous les appareils, en mettant l’accent sur l’impact visuel, la rapidité et des appels à l’action efficaces pour convertir les visiteurs en adhérents.",
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "type": "frontend",
+        "showLink": true,
+        "showScreens": false,
+        "link": "https://example-gym-website.com",
+        "github": "https://github.com/your-username/gym-website",
+        "screens": [
+          "/projects/gym/gym-1.png",
+          "/projects/gym/gym-2.png",
+          "/projects/gym/gym-3.png"
+        ]
+      },
+      {
+        "title": "Portfolio Personnel",
+        "description": "Un site portfolio personnel conçu pour présenter des projets professionnels, des compétences techniques et un parcours de manière claire et élégante. L’application met en valeur des projets sélectionnés, des pages détaillées et une identité forte grâce à des animations fluides et une interface soignée. Développé avec une architecture moderne basée sur des composants pour garantir la scalabilité, l’accessibilité et d’excellentes performances.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Radix UI"
+        ],
+        "type": "frontend",
+        "showLink": true,
+        "showScreens": false,
+        "link": "https://example-portfolio.com",
+        "github": "https://github.com/your-username/portfolio",
+        "screens": [
+          "/projects/portfolio/portfolio-1.png",
+          "/projects/portfolio/portfolio-2.png",
+          "/projects/portfolio/portfolio-3.png"
         ]
       }
     ]
