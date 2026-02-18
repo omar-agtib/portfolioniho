@@ -185,13 +185,8 @@
         "type": "frontend",
         "showLink": true,
         "showScreens": false,
-        "link": "https://example-gym-website.com",
-        "github": "https://github.com/your-username/gym-website",
-        "screens": [
-          "/projects/gym/gym-1.png",
-          "/projects/gym/gym-2.png",
-          "/projects/gym/gym-3.png"
-        ]
+        "link": "https://lively-raindrop-fe3987.netlify.app",
+        "github": "https://github.com/omar-agtib/gym-time"
       },
       {
         "title": "Personal Portfolio Website",
@@ -206,13 +201,8 @@
         "type": "frontend",
         "showLink": true,
         "showScreens": false,
-        "link": "https://example-portfolio.com",
-        "github": "https://github.com/your-username/portfolio",
-        "screens": [
-          "/projects/portfolio/portfolio-1.png",
-          "/projects/portfolio/portfolio-2.png",
-          "/projects/portfolio/portfolio-3.png"
-        ]
+        "link": "https://agtib-dev-zeta.vercel.app",
+        "github": "https://github.com/omar-agtib/portfolioniho"
       }
     ]
   },

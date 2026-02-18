@@ -155,7 +155,7 @@ export function ProjectsSection() {
                         {/* Links */}
                         <div className="flex items-center gap-3 pt-4 mt-auto flex-wrap">
                           {/* ✅ Only show if showScreens is true */}
-                          {project.showScreens && (
+                          {project.showScreens && project.screens && (
                             <motion.button
                               onClick={() => setSelectedProject(project)}
                               className="flex items-center gap-2 text-sm font-medium text-primary dark:text-blue-400 hover:text-accent dark:hover:text-violet-400 transition-colors"
