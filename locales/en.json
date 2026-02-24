@@ -39,27 +39,42 @@
   },
   "timeline": {
     "title": "Professional Journey",
-    "description": "Developing modern web applications with measurable performance improvements and strong collaboration with product teams.",
+    "description": "Crafting modern web applications with strong performance, reusable components, and collaborative development alongside product teams.",
     "experiences": [
       {
-        "title": "Frontend React Developer",
+        "title": "Frontend Developer – React.js / Next.js",
         "company": "ELAVI",
         "period": "Aug 2025 - Present",
-        "description": "Developed high-performance web interfaces using React and TypeScript. Improved page performance by 30%, built reusable UI components, integrated REST APIs, and implemented Docker-based development environments.",
-        "highlights": ["React", "TypeScript", "Redux", "Axios", "Docker"]
+        "description": "Designing and implementing high-performance web interfaces with React.js and Next.js, boosting page fluidity and load times by over 30%. Built reusable and scalable UI components to ensure visual consistency and maintainable code. Managed application state with Redux and integrated REST APIs via Axios for optimized data flow. Collaborated closely with the product team to translate functional requirements into effective technical solutions. Standardized development and build environments using Docker, streamlining team workflows. Conducted code reviews, unit testing, and continuous optimizations, reducing critical bugs and crashes by 15–20%. ",
+        "highlights": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Axios",
+          "Docker",
+          "GitLab"
+        ]
       },
       {
-        "title": "Frontend Developer",
+        "title": "Frontend Developer – React.js / React Native",
         "company": "SMALTER",
         "period": "Apr 2024 - Jul 2025",
-        "description": "Built responsive and scalable React applications, created reusable UI components, managed state using Redux, and improved application reliability by reducing critical bugs by 20%.",
-        "highlights": ["React", "React Native", "TypeScript", "Redux", "GitLab"]
+        "description": "Developed responsive and high-performance web and mobile interfaces with React.js and React Native, improving page fluidity by 30%+. Created reusable UI components to maintain design consistency and long-term scalability. Managed client-side state with Redux and integrated APIs for fast, reliable interactions. Participated in code reviews and best practices adoption, significantly reducing critical bugs and improving code quality.",
+        "highlights": [
+          "React",
+          "React Native",
+          "TypeScript",
+          "Redux",
+          "Axios",
+          "GitLab"
+        ]
       },
       {
         "title": "Fullstack JavaScript Developer Intern",
         "company": "Ark-X Academy",
         "period": "Jul 2023 - Dec 2023",
-        "description": "Designed and developed a complete e-commerce platform using React.js for frontend and Node.js/Express for backend. Implemented unit testing with Jest to ensure application stability. Optimized state management using Redux, reducing unnecessary re-renders by 25%, and collaborated using Git workflows and code reviews.",
+        "description": "Built a full-featured e-commerce platform using React.js for frontend and Node.js/Express for backend. Implemented unit testing with Jest to ensure application reliability. Optimized state management with Redux, reducing unnecessary re-renders by 25%. Collaborated effectively via Git workflows and code reviews, gaining hands-on experience in full-stack development and team-based project delivery.",
         "highlights": [
           "React",
           "Redux",

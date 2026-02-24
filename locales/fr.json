@@ -39,27 +39,42 @@
   },
   "timeline": {
     "title": "Parcours Professionnel",
-    "description": "Développement d’applications web modernes avec amélioration mesurable des performances et collaboration étroite avec les équipes produit.",
+    "description": "Création d’applications web modernes avec des performances optimisées, des composants réutilisables et une collaboration étroite avec les équipes produit.",
     "experiences": [
       {
-        "title": "Développeur Frontend React",
+        "title": "Développeur Frontend – React.js / Next.js",
         "company": "ELAVI",
         "period": "Août 2025 - Présent",
-        "description": "Développement d’interfaces web performantes avec React et TypeScript. Amélioration des performances de 30%, création de composants UI réutilisables, intégration d’API REST et mise en place d’environnements Docker.",
-        "highlights": ["React", "TypeScript", "Redux", "Axios", "Docker"]
+        "description": "Conception et développement d’interfaces web performantes avec React.js et Next.js, améliorant la fluidité et les temps de chargement de plus de 30%. Création de composants UI réutilisables et évolutifs pour garantir cohérence visuelle et maintenabilité du code. Gestion de l’état de l’application avec Redux et intégration d’API REST via Axios pour un flux de données optimisé. Collaboration étroite avec l’équipe produit pour transformer les besoins fonctionnels en solutions techniques efficaces. Standardisation des environnements de développement et de build avec Docker, facilitant la collaboration en équipe. Participation aux revues de code, tests unitaires et optimisations continues, réduisant les bugs critiques et les crashes de 15–20%.",
+        "highlights": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Axios",
+          "Docker",
+          "GitLab"
+        ]
       },
       {
-        "title": "Développeur Frontend",
+        "title": "Développeur Frontend – React.js / React Native",
         "company": "SMALTER",
         "period": "Avril 2024 - Juillet 2025",
-        "description": "Création d’applications React responsives et scalables, développement de composants UI réutilisables, gestion d’état avec Redux et réduction des bugs critiques de 20%.",
-        "highlights": ["React", "React Native", "TypeScript", "Redux", "GitLab"]
+        "description": "Développement d’interfaces web et mobiles réactives et performantes avec React.js et React Native, améliorant la fluidité des pages de plus de 30%. Création de composants UI réutilisables pour assurer la cohérence du design et la scalabilité du code. Gestion de l’état client avec Redux et intégration d’API pour des interactions rapides et fiables. Participation aux revues de code et adoption des meilleures pratiques, réduisant significativement les bugs critiques et améliorant la qualité du code.",
+        "highlights": [
+          "React",
+          "React Native",
+          "TypeScript",
+          "Redux",
+          "Axios",
+          "GitLab"
+        ]
       },
       {
         "title": "Stagiaire Développeur Fullstack JavaScript",
         "company": "Ark-X Academy",
         "period": "Juillet 2023 - Décembre 2023",
-        "description": "Conception et développement d’une plateforme e-commerce complète avec React.js pour le frontend et Node.js/Express pour le backend. Mise en place de tests unitaires avec Jest pour assurer la stabilité de l’application. Optimisation de la gestion d’état avec Redux, réduisant les re-rendus inutiles de 25%, et collaboration via Git et revues de code.",
+        "description": "Création d’une plateforme e-commerce complète avec React.js pour le frontend et Node.js/Express pour le backend. Mise en place de tests unitaires avec Jest pour garantir la fiabilité de l’application. Optimisation de la gestion d’état avec Redux, réduisant les re-rendus inutiles de 25%. Collaboration efficace via Git et revues de code, acquérant une expérience pratique en développement fullstack et en travail d’équipe.",
         "highlights": [
           "React",
           "Redux",
